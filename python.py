@@ -211,7 +211,9 @@ if __name__ == "__main__":
                                 file3, ex3 = get_file_details()
 
                                 mergefile(path1,file1,ex1,path2,file2,ex2,path3,file3,ex3)
-
+                            else:
+                                print("Exiting.")
+                                break
                     case _:
                         print("Invalid option. Exiting.")
             except ValueError as e:
